@@ -36,8 +36,8 @@ La información obtenida por el scraper (en la sección anterior) debe ser almac
 La información obtenida por el scraper debe ser presentada en forma de tabla. El diseño queda a libre elección del desarrollador.
 
 ¿Qué considera?
-* Un botón que inicie/ejecute el scraper para obtener los datos del sitio web(*)
-* Un listado de Categorías obtenidas por el scrapers.
+* Se deben los datos desde la BBDD sqlite, creada y poblada en el punto anterior
+* Un listado de Categorías obtenidas por el scrapers
 * Al seleccionar una categoría, la tabla sólo mostrará libros de esa categoría
 * La tabla debe tener un buscador por los atributos que posee
 * Se debe poder eliminar registros de la tabla que se presente
@@ -76,11 +76,17 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 }]
 ```
 
+## Restricciones
+---
+* Entregar el código usando Github
+* Incluir README que indique cómo levantar su solución
+
+
 ## Bonus
 ---
 * Uso de alguna librería en el frontend. Idealmente `React`
 * Webscraping usando la librería `Requests` y `BeautifulSoup`
-* Uso de `Flask-RESTful Framework` para la comunicación entre frontend y backend
+* Uso de `Flask-RESTful` para la comunicación entre frontend y backend
 * Uso del ORM `SQLAlchemy`
 
 
@@ -89,4 +95,5 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 * Correcto modelamiento la BBDD
 * Patrones de diseño
 * Orden del código
+
 
