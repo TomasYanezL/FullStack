@@ -9,7 +9,6 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
 ---
 Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web. 
 
-Lo anterior será bajo el uso del lenguaje Python.
 
 ### *Web Scraping*
 
@@ -24,6 +23,8 @@ Se requiere obtener del [sitio web](http://books.toscrape.com/index.html) la sig
   * Stock
   * Product Description
   * UPC
+
+Lo anterior será bajo el uso del lenguaje Python.
 
 ***Nota:*** Se recomienda usar las librerías [Requests](http://docs.python-requests.org/en/master/) y [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para resolver este punto.
 
