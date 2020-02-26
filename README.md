@@ -7,7 +7,7 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
 
 ## Instrucciones de desarrollo
 ---
-Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web. 
+Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web.
 
 
 ### *Web Scraping*
@@ -37,7 +37,7 @@ La información obtenida por el scraper (en la sección anterior) debe ser almac
 La información obtenida por el scraper debe ser presentada en forma de tabla. El diseño queda a libre elección del desarrollador.
 
 ¿Qué considera?
-* Se deben los datos desde la BBDD sqlite, creada y poblada en el punto anterior
+* Se deben leer los datos desde la BBDD sqlite, creada y poblada en el punto anterior
 * Un listado de Categorías obtenidas por el scrapers
 * Al seleccionar una categoría, la tabla sólo mostrará libros de esa categoría
 * La tabla debe tener un buscador por los atributos que posee
